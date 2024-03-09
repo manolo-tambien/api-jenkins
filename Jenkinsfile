@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('install npm') {
+    stage('Checks downloaded code') {
       steps {
         sh 'ls -la'
       }
