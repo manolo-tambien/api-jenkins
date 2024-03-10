@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('checkout code') {
       steps {
-        git(url: 'https://github.com/manolo-tambien/api-jenkins.git', branch: 'main')
+        git(url: 'https://github.com/manolo-tambien/api-jenkins.git', branch: 'dev')
       }
     }
 
