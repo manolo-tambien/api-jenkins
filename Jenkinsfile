@@ -21,7 +21,7 @@ pipeline {
 
     stage('unit test') {
       steps {
-        sh 'npm test -- --bail'
+        sh 'npm test -- --bail --detectOpenHandles'
       }
     }
 
