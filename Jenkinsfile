@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('Checks downloaded code') {
+    stage('Check directory exist') {
       steps {
         sh 'ls -la'
       }
