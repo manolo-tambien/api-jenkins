@@ -21,7 +21,7 @@ pipeline {
 
     stage('unit test') {
       steps {
-        sh 'npm test'
+        sh 'npm test -- --bail'
       }
     }
 
